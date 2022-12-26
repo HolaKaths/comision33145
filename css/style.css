@@ -1,0 +1,428 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+/* alinear items menu principal */
+
+header {
+	background-color: white;
+	width: 1330px;
+	clear: both;
+	content: "";
+	display: table;
+	object-fit: cover;
+}
+
+
+header img {
+	float: left;
+	padding: 2px;
+	object-fit: cover;
+}
+
+#mainMenu {
+	background-color: #38A3A5;
+	padding: 10px;
+	width: 1520px;
+	margin: 0px;
+	box-sizing: content-box;
+	text-align: center;
+	height: 40px;
+	left: 0px;
+	top: 0px;
+	font-family: 'Montserrat';
+	font-style: normal;
+}
+
+#mainMenu li {
+	float: left;
+	padding: 12px;
+	border-radius: 1px;
+	margin: 10px;
+	border: 1px solid #38A3A5;
+}
+
+#mainMenu a {
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+#mainMenu a:hover {
+	background-color: #57CC99;
+	color: #fff;
+}
+
+
+/* Botones sign/registro */
+#buttonlogin {
+	background-color: #38A3A5;
+	border-color: #C7F9CC;
+	float: right;
+	font-family: 'Montserrat';
+	text-decoration: white;
+	color: white;
+	font-style: normal;
+	border-radius: 4px;
+	text-align: center;
+	margin: 20px;
+	padding: 5px;
+
+}
+#buttonlogin a:hover {
+	background-color: #18A0FB;
+	color: #C7F9CC;
+	cursor: pointer;
+}
+
+#buttonregister {
+	background-color: #38A3A5;
+	border-color: #C7F9CC;
+	float: right;
+	font-family: 'Montserrat';
+	text-decoration: white;
+	color: white;
+	font-style: normal;
+	border-radius: 4px;
+	text-align: center;
+	margin: 20px;
+	padding: 5px;
+	cursor:pointer;
+
+}
+#buttonregister a:hover {
+	background-color: #18A0FB;
+	color: rgb(47, 113, 171);
+	cursor: pointer;
+}
+
+
+
+/* Video principal */
+.containervideo {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%;
+	object-fit: cover;
+}
+
+.video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#h1 {
+	font-family: 'Montserrat';
+	font-style: normal;
+	margin: 50px;
+}
+
+/* Sección noticias/artículos */
+#parrafosA {
+	margin: 20px;
+	float: right;
+	font-family: 'Montserrat';
+	font-style: normal;
+	box-sizing: content-box;
+}
+
+#parrafosB {
+	margin: 20px;
+	float: left;
+	font-family: 'Montserrat';
+	font-style: normal;
+	box-sizing: content-box;
+}
+
+#section {
+
+	display: flex;
+	overflow: hidden;
+	column-count: 2;
+	column-gap: 20px;
+	column-rule: 4px double black;
+	list-style: none;
+}
+
+.container {
+	margin: 20px;
+	display: flex;
+	column-count: 2;
+	column-gap: 20px;
+	column-rule: 4px double black;
+	list-style: none;
+
+}
+
+/* Buscador vet*/
+
+#mapa {
+	float: left;
+	max-width: 100%;
+
+}
+
+#bloqueBuscador {
+	font-family: 'Montserrat';
+	font-style: normal;
+	margin: 20px;
+	float: right;
+	font-family: 'Montserrat';
+	font-style: normal;
+	box-sizing: content-box;
+}
+
+/* Inicia CSS footer */
+
+#contfooter {
+	background-color: #38A3A5;
+	max-width: 100%;
+}
+
+ul.menu-footer {
+    vertical-align: middle;
+}
+
+#footer {
+    background-color: #38A3A5;
+    height: 10px;
+    float: center;
+    vertical-align: middle;
+}
+
+#footer ul {
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	}
+
+
+#footer li {
+	display: inline-block;
+	padding: 30px;
+
+	
+	}
+
+#footer a {
+	font-family: 'Montserrat';
+	font-style: normal;
+	text-decoration:none;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+
+/* alinear items menu footer */
+
+#footer ul li {
+    vertical-align: middle;
+	background-color: #38A3A5;
+	
+	
+}
+#footer a:hover {
+	background-color: #57CC99;
+	
+}
+
+ul.socialmedia {
+    vertical-align: middle;
+	background-color: white;
+	max-width: 100%;
+}
+
+#socialmedia {
+    background-color: white;
+    height: 10px;
+    float: center;
+    vertical-align: middle;
+}
+
+#socialmedia li {
+	display: inline-block;
+	padding: 520px;
+	
+}
+
+#copy a{
+
+	float: center;
+    vertical-align: middle;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+
+
+#section {
+
+display: flex;
+overflow: hidden;
+column-count:2;
+column-gap:  5px;
+column-rule:4px;
+list-style: none;
+padding: 5px;
+}
+
+#container {
+	margin: 10px;
+	display: inline-block;
+	column-count:2;
+	column-rule:4px;
+	list-style: none;
+	
+}
+
+#container img {
+	margin: 40px;
+}
+
+
+#buscador {
+	font-family: 'Montserrat';
+	font-style: normal;
+	margin: 5px;
+	float:right;
+	font-style: normal;
+	box-sizing: content-box;
+}
+
+/* Sección instapets */
+#parrafoinsta {
+	margin: 20px;
+	float: right;
+	font-family: 'Montserrat';
+	font-style: normal;
+	box-sizing: content-box;
+}
+
+#ul.parrafoinsta2 {
+	margin: 20px;
+	float: right;
+	font-family: 'Montserrat';
+	font-style: normal;
+	box-sizing: content-box;
+}
+
+
+
+
+.container {
+	margin: 20px;
+	display: flex;
+	column-count: 2;
+	column-gap: 20px;
+	column-rule: 4px double black;
+	list-style: none;
+
+}
+
+/* Formulario de registro*/
+
+#Registro1 {
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+    align-content: space-around;
+}
+
+.myForm {
+    font-family: 'Montserrat';
+    font-style: normal;
+    width: 30em;
+    padding: 30px;
+    column-count: 2;
+    column-gap: 250px;
+}
+
+.myForm * {
+    box-sizing: border-box;
+}
+
+.myForm label {
+    padding: 30px;
+    font-weight: bold;
+    text-align: left;
+    display: inline-block;
+}
+
+.myForm input,
+.myForm select,
+.myForm textarea {
+
+    vertical-align: middle;
+    margin-left: 2em;
+    float: right;
+    width: 20em;
+    border: 1px solid #ccc;
+    font-family: 'Montserrat';
+    font-style: normal;
+    padding: 12px;
+}
+
+.myForm textarea {
+    height: 50px;
+    resize: vertical;
+    border-radius: 15px;
+    border: 0;
+
+}
+
+.myForm button {
+    padding: 1em;
+    border-radius: 0.5em;
+    background: #eee;
+    border: none;
+    font-weight: bold;
+    margin-left: 18em;
+    margin-top: 1.8em;
+}
+
+.myForm button:hover {
+    background: #ccc;
+    cursor: pointer;
+}
+
+#buttonenviar1 {
+
+background-color: #18A0FB;
+border-color: #18A0FB;
+float: right;
+font-family: 'Montserrat';
+font-style: normal;
+border-radius: 4px;
+text-align: center;
+margin: 20px;
+padding: 5px;
+cursor:pointer;
+}
